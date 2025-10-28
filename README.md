@@ -353,129 +353,18 @@ Future<String> fetchQuote() async {
 }
 ```
 
-**Note:** The bonus feature should enhance, not distract from, your core app functionality. Only implement this if your base requirements are complete and working well.
-
 ---
 
-## Deliverables
+### Submission Format
 
-Submit the following by the deadline:
+1. **Project Folder:** Zip your entire Flutter project
+   - Name format: `MidtermProject_YourName_StudentID.zip`
+   - Include all source code and README
+   - Exclude build folders and generated files
 
-### 1. Source Code (Required)
+2. Submit in Moodle
 
-- Complete Flutter project folder (zipped)
-- Include all source code, assets, and configuration files
-- **Do NOT include:** `build/`, `.dart_tool/`, `.idea/`, or other generated folders
-- Include `pubspec.yaml` with all dependencies listed
-
-### 2. README.md (Required)
-
-Create a professional README.md in your project root that includes:
-
-- **Project Title and Description:** What your app does (100-150 words)
-- **Features List:** Bullet points of implemented features
-- **Installation Instructions:** How to run your app
-  - Firebase setup steps
-  - Required dependencies
-  - How to obtain `google-services.json` (if not included)
-- **App Structure:** Brief explanation of your folder organization
-- **Screenshots:** Include 4-6 screenshots showing key screens
-- **Known Issues:** Any bugs or limitations (if applicable)
-- **Future Enhancements:** 2-3 features you'd add with more time
-- **Credits:** APIs used, tutorials referenced, assets sources
-
-### 3. Demo Video (Optional, but Recommended)
-
-- **Length:** 2-4 minutes
-- **Content:** 
-  - Brief intro explaining your app's purpose
-  - Walkthrough of main features (CRUD operations)
-  - Demonstrate real-time Firestore sync (add item on web console, show it appears in app)
-  - Show error handling (e.g., delete confirmation)
-- **Format:** MP4 or link to YouTube/Vimeo (unlisted)
-- **Quality:** Screen recording with clear audio or captions
-
-### 4. Firebase Configuration (Required)
-
-Include **either**:
-- Detailed instructions in README for instructor to create Firebase project, OR
-- A `firebase_instructions.md` file with step-by-step setup, OR
-- (If comfortable) Include configured `google-services.json` and `GoogleService-Info.plist` with test mode Firestore rules
-
-**Security Note:** If including Firebase config files, ensure Firestore is in test mode. Never share production credentials.
-
----
-
-## Evaluation Rubric
-
-Your project will be evaluated on a 100-point scale:
-
-| Category | Points | Criteria |
-|----------|--------|----------|
-| **Functionality** | 35 | Complete CRUD operations, all features working as expected, proper data persistence |
-| **Firebase Integration** | 20 | Proper Firestore setup, real-time data sync, appropriate queries, error handling |
-| **Code Quality** | 15 | Clean code structure, proper naming, comments, DRY principle, error handling |
-| **State Management** | 10 | Appropriate use of Provider/setState, no unnecessary rebuilds, proper resource disposal |
-| **UI/UX Design** | 10 | Intuitive interface, Material Design compliance, consistent theming, responsive layouts |
-| **Documentation** | 10 | Complete README, clear code comments, setup instructions, screenshots |
-| **Bonus: API Integration** | +5 | Successful external API integration with error handling and meaningful feature |
-
-### Detailed Grading Breakdown:
-
-#### Functionality (35 points)
-- Create operation with validation: 8 points
-- Read operation with real-time updates: 8 points
-- Update operation with data persistence: 8 points
-- Delete operation with confirmation: 8 points
-- Overall app stability and bug-free operation: 3 points
-
-#### Firebase Integration (20 points)
-- Successful Firebase initialization: 4 points
-- Proper Firestore collection and document structure: 4 points
-- StreamBuilder implementation for real-time data: 4 points
-- Appropriate Firestore queries (orderBy, filtering): 4 points
-- Error handling for Firestore operations: 4 points
-
-#### Code Quality (15 points)
-- Proper project structure and organization: 4 points
-- Meaningful variable/function names: 3 points
-- Code comments where needed: 2 points
-- No code duplication (DRY principle): 3 points
-- Proper error handling and try-catch blocks: 3 points
-
-#### State Management (10 points)
-- Correct choice of Provider vs setState: 4 points
-- Proper state updates without memory leaks: 3 points
-- Resource disposal (controllers, listeners): 3 points
-
-#### UI/UX Design (10 points)
-- Clean, professional interface: 3 points
-- Consistent theme and styling: 2 points
-- Appropriate loading indicators: 2 points
-- Clear error messages: 2 points
-- Intuitive navigation flow: 1 point
-
-#### Documentation (10 points)
-- Complete README with all required sections: 5 points
-- Clear setup instructions: 2 points
-- Screenshots demonstrating features: 2 points
-- Code comments explaining complex logic: 1 point
-
----
-
-## Reflection Questions
-
-Include answers to these questions in your README (200-300 words total):
-
-1. **Architecture Decisions:** Why did you choose your particular folder structure and state management approach? What alternatives did you consider?
-
-2. **Firestore Design:** How did you structure your Firestore collection(s)? If you had thousands of users and millions of documents, what would you change about your data model?
-
-3. **Challenges & Solutions:** What was the most challenging aspect of this project? How did you overcome it? What resources did you use?
-
-4. **User Experience:** What design decisions did you make to improve user experience? How did you handle edge cases (empty lists, loading states, errors)?
-
-5. **Future Improvements:** If you had another week to work on this project, what would you add or improve? What features would make your app production-ready?
+3. Include a small report explaining all your screens and functionalities. 
 
 ---
 
@@ -505,27 +394,6 @@ Include answers to these questions in your README (200-300 words total):
 - Test on multiple devices/emulators (different screen sizes)
 - Clear app data and test from fresh install state
 
-### Time Management
-
-**Week 1:**
-- Finalize project theme and features
-- Set up Firebase project and Flutter app structure
-- Implement data model and Firestore service
-- Build basic list screen with read functionality
-
-**Week 2:**
-- Implement create and update functionality
-- Add delete operation with confirmation
-- Build remaining screens and navigation
-- Integrate state management
-
-**Week 3:**
-- Polish UI and fix bugs
-- Add error handling and edge cases
-- Write documentation and README
-- Record demo video (if applicable)
-- Final testing and submission
-
 ---
 
 ## Helpful Resources
@@ -546,76 +414,6 @@ Include answers to these questions in your README (200-300 words total):
 - [Flutter Widget Catalog](https://docs.flutter.dev/development/ui/widgets)
 - [Flutter Layout Cheat Sheet](https://medium.com/flutter-community/flutter-layout-cheat-sheet-5363348d037e)
 
-### External APIs (for Bonus)
-- [Public APIs List](https://github.com/public-apis/public-apis)
-- [RapidAPI Hub](https://rapidapi.com/hub)
-- [API List](https://apilist.fun/)
-
----
-
-## Submission Guidelines
-
-### Deadline
-
-**Due Date:** [Insert Date], 11:59 PM  
-**Late Penalty:** -10% per day (up to 3 days; not accepted after)
-
-### Submission Format
-
-1. **Project Folder:** Zip your entire Flutter project
-   - Name format: `MidtermProject_YourName_StudentID.zip`
-   - Include all source code and README
-   - Exclude build folders and generated files
-
-2. **Submit Via:** [Your learning management system - Canvas, Moodle, etc.]
-
-3. **Video (if applicable):** Upload to YouTube/Vimeo as unlisted and include link in README
-
-### Checklist Before Submission
-
-- [ ] All CRUD operations working correctly
-- [ ] At least 3 screens implemented
-- [ ] Firebase properly configured and integrated
-- [ ] No compilation errors or warnings
-- [ ] README.md complete with all required sections
-- [ ] Code is well-commented and formatted
-- [ ] Screenshots included in README
-- [ ] Project folder properly named and zipped
-- [ ] Tested on at least one device/emulator
-- [ ] Reflection questions answered
-
----
-
-## Academic Integrity
-
-This is an **individual project**. You may:
-- Consult official Flutter and Firebase documentation
-- Ask clarifying questions to your instructor
-- Use code from your own lab assignments
-- Reference online tutorials (with proper attribution)
-
-You may **NOT**:
-- Copy code directly from classmates
-- Submit code generated entirely by AI tools
-- Use complete app templates from GitHub
-- Have someone else write your code
-
-**Violations will result in a zero for the project and potential disciplinary action.**
-
----
-
-## Getting Help
-
-If you encounter issues:
-
-1. **Review Lab Materials:** Check previous labs for similar implementations
-2. **Read Documentation:** Flutter and Firebase docs are comprehensive
-3. **Office Hours:** [Insert instructor office hours]
-4. **Discussion Forum:** [If available - Canvas discussion, Discord, etc.]
-5. **Email Instructor:** For specific technical issues or proposal approvals
-
-**Do not wait until the last minute to ask for help!**
-
 ---
 
 ## Final Notes
@@ -625,7 +423,5 @@ This project is your opportunity to showcase everything you've learned about Flu
 **Remember:** A simple app that works perfectly is better than a complex app that crashes. Start with the fundamentals, get them right, then add polish.
 
 ---
-
-*"The best way to predict the future is to invent it." – Alan Kay*
 
 **Happy Coding! 🚀**
