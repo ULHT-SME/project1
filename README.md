@@ -1,12 +1,8 @@
 # Project 1
 
----
-
 ## Project Overview
 
 This midterm project is your opportunity to demonstrate mastery of Flutter development fundamentals by building a complete, functional mobile application with cloud persistence. You will design and implement a multi-screen app that integrates Firebase Firestore for real-time data management, implements proper state management patterns, and showcases clean UI/UX design principles.
-
----
 
 ## Learning Objectives
 
