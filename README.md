@@ -354,8 +354,8 @@ Future<String> fetchQuote() async {
 ### Submission Format
 
 1. **Project Folder:** Zip your entire Flutter project
-   - Name format: `MidtermProject_YourName_StudentID.zip`
-   - Include all source code and README
+   - Name format: `MidtermProject_StudentName1_StudentID1_StudenteName2_StudentID2.zip`
+   - Include all source code
    - Exclude build folders and generated files
 
 2. Submit in Moodle
