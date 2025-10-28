@@ -25,7 +25,7 @@ By completing this project, you will demonstrate your ability to:
 
 ## Project Theme Options
 
-Choose **one** of the following themes for your application, or propose your own (requires instructor approval):
+Choose **one** of the following themes for your application, or propose your own:
 
 ### Option 1: Personal Notes Application
 Build a cloud-synced notes app where users can create, organize, and manage text-based notes.
@@ -104,7 +104,7 @@ Have a unique idea? Propose your own project theme!
 - Submit a brief proposal describing your app concept
 - Must include clear explanation of CRUD operations specific to your domain
 - Must be feasible within the project timeline
-- Requires instructor approval **before** starting development
+- Requires professor approval **before** starting development
 
 ---
 
